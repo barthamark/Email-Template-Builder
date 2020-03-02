@@ -1,0 +1,17 @@
+@import "../abstracts/variables";
+
+.divider {
+    width: 100%;
+    line-height: 1px;
+    font-size: 1px;
+    margin-top: $default-top-bottom-padding;
+
+    td {
+        background: none;
+        padding: 0px 0px 1px 0px;
+        background-color: $color-lightgray;
+        height: 1px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+}

@@ -1,0 +1,15 @@
+@import "../abstracts/variables";
+
+.footer {
+    > tr {
+        > td {
+            text-align: center;
+            padding: 20px;
+            background-color: $color-lightgray;
+
+            div, h3 {
+                color: $color-darkgray;
+            }
+        }
+    }
+}

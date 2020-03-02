@@ -1,0 +1,65 @@
+@import "../abstracts/variables";
+
+body {
+    * {
+        font-family: $font;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $color-darkgreen;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.content-block {
+    color: $color-lightergray;
+
+    div,
+    ul,
+    ol {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 15px;
+        line-height: 26px;
+
+        li {
+            list-style-position: inside;
+            margin-left: 5px;
+        }
+    }
+
+    strong {
+        font-weight: 600;
+        color: $color-darkgreen;
+    }
+}
+
+
+a {
+    color: $color-orange;
+    text-decoration: underline;
+}

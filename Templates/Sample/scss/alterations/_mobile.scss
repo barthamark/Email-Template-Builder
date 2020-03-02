@@ -1,0 +1,54 @@
+@import "../abstracts/variables";
+
+@media only screen and (max-width: $breakpoint) {
+    body {
+        padding: 0 !important;
+    }
+
+    p,
+    ul,
+    ol,
+    td,
+    span,
+    a {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    h1, h2, h3, h4 {
+        font-weight: 400 !important;
+        margin: 10px 0 5px !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    .container {
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .content {
+        padding: 0 !important;
+    }
+
+    .wrapper {
+        padding: 10px !important;
+    }
+
+    .content-block {
+        > div {
+            margin-bottom: 8px !important;
+        }
+    }
+}

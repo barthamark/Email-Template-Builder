@@ -1,0 +1,56 @@
+@import "../abstracts/variables";
+
+.btn {
+    box-sizing: border-box;
+    width: 100%;
+
+    > tbody {
+        > tr {
+            > td {
+                padding-bottom: 15px;
+            }
+        }
+    }
+
+    table {
+        width: auto;
+    }
+
+    table {
+        td {
+            background-color: $color-orange;
+            border-radius: 9999px;
+            text-align: center;
+        }
+    }
+
+    a {
+        background-color: $color-orange;
+        color: #ffffff;
+        border: solid 1px $color-orange;
+        border-radius: 9999px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+        padding: 12px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.btn-primary {
+    table {
+        td {
+            background-color: $color-orange;
+        }
+    }
+
+    a {
+        background-color: $color-orange;
+        border-color: $color-orange;
+        color: #ffffff;
+    }
+}

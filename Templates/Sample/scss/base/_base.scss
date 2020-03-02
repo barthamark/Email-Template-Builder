@@ -1,0 +1,39 @@
+@import "../abstracts/variables";
+
+.body {
+    background-color: $color-white;
+    font-family: Lato, sans-serif;
+    width: 100%;
+}
+
+.container {
+    display: block !important;
+    max-width: $width !important;
+    margin: 0 auto !important;
+    clear: both !important;
+}
+
+.content {
+    max-width: $width;
+    margin: 0 auto;
+    display: block;
+    padding: 0 20px;
+}
+
+.main {
+    background: $color-white;
+    width: 100%;
+}
+
+.wrapper {
+    padding: 0 20px;
+}
+
+.content-block {
+    padding-bottom: $default-top-bottom-padding;
+    padding-top: $default-top-bottom-padding;
+
+    > div {
+        text-align: justify;
+    }
+}
